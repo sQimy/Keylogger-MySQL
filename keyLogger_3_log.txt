@@ -1,0 +1,88 @@
+2022-06-12 22:03:37,782: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 93, in on_press
+    compare_with_blacklist(word = self.keys)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 73, in compare_with_blacklist
+    noty(word)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 67, in noty
+    send_report_to_server()
+TypeError: send_report_to_server() missing 1 required positional argument: 'banword'
+2022-06-12 22:39:37,930: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 93, in on_press
+    compare_with_blacklist(word = self.keys)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 73, in compare_with_blacklist
+    noty(word)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 67, in noty
+    send_report_to_server(banword=word)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 44, in send_report_to_server
+    client.connect((server_config.IP, server_config.PORT))
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2022-06-12 22:41:12,763: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\studies\1Diplom\Python\keylogger\main programm\client.py", line 93, in on_press
+    compare_with_blacklist(word = self.keys)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\client.py", line 73, in compare_with_blacklist
+    noty(word)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\client.py", line 67, in noty
+    send_report_to_server(banword=word)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\client.py", line 44, in send_report_to_server
+    client.connect((server_config.IP, server_config.PORT))
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2022-06-12 22:43:11,839: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 93, in on_press
+    compare_with_blacklist(word = self.keys)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 73, in compare_with_blacklist
+    noty(word)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 67, in noty
+    send_report_to_server(banword=word)
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 44, in send_report_to_server
+    client.connect((server_config.IP, server_config.PORT))
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2022-06-20 23:31:47,124: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "d:\studies\1Diplom\Python\keylogger\main programm\client.py", line 102, in on_press
+    k = eng_to_rus[k]
+KeyError: 'Key.ctrl_l'
+2022-06-20 23:39:45,976: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\studies\1Diplom\Python\keylogger\main programm\keylogger\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\studies\1Diplom\Python\keylogger\main programm\client.py", line 102, in on_press
+    k = eng_to_rus[k]
+KeyError: 'Key.shift'
